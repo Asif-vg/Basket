@@ -1,0 +1,126 @@
+body {
+  background-color: #e5e5e5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sebet {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sebet i {
+  display: block;
+  cursor: pointer;
+}
+
+.sebet .cart-content {
+  display: inline-block;
+  background-color: #fff;
+  visibility: hidden;
+  width: 271px;
+}
+
+.sebet .cart-content.plus {
+  visibility: visible;
+}
+
+.sebet .cart-content .cart-head h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  padding-left: 15px;
+}
+
+.sebet .cart-content .cart-items {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.sebet .cart-content .cart-items hr {
+  width: 242px;
+  -webkit-border-before: none;
+          border-block-start: none;
+}
+
+.sebet .cart-content .cart-items .cart-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sebet .cart-content .cart-items .cart-item .img {
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 14px;
+}
+
+.sebet .cart-content .cart-items .cart-item .img img {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border: 2px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.sebet .cart-content .cart-items .cart-item .img img:hover {
+  border: 2px solid #1abc9c;
+}
+
+.sebet .cart-content .cart-items .cart-item .cart-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sebet .cart-content .cart-items .cart-item .cart-text a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #333;
+  display: inline-block;
+  padding: 15px 17px 0px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.sebet .cart-content .cart-items .cart-item .cart-text a:hover {
+  color: #1abc9c;
+}
+
+.sebet .cart-content .cart-items .cart-item .cart-text span {
+  padding: 9px 17px 13px;
+  font-size: 13px;
+  color: #999;
+}
+
+.sebet .cart-content .cart-sale span {
+  display: inline-block;
+  color: #1abc9c;
+  font-size: 22px;
+  padding: 15px 16px 15px;
+}
+
+.sebet .cart-content .cart-sale a {
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #1abc9c;
+  color: white;
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+  height: 30px;
+  -webkit-box-shadow: 0px 2px 0px 0px #25d9b5;
+          box-shadow: 0px 2px 0px 0px #25d9b5;
+  border-radius: 3px;
+  line-height: 2.6;
+  margin-left: 35px;
+}
+
+.sebet .cart-content .cart-sale a:hover {
+  background-color: #1dc4a2;
+}
+/*# sourceMappingURL=style.css.map */
